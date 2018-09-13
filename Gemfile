@@ -38,13 +38,12 @@ end
 
 group :test do
   gem 'factory_bot_rails', '~> 4.11'
-
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'
-
   gem 'faker', '~> 1.9', '>= 1.9.1'
-
   gem 'database_cleaner', '~> 1.7'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'active_model_serializers', '~> 0.10.0'
+gem 'active_model_serializers', '~> 0.10.7'
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'faker', '~> 1.9', '>= 1.9.1'
