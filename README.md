@@ -6,6 +6,7 @@ use of
   * shoulda-matchers
   * faker
   * database_cleaner
+  
 for database and rspec testing
 
 nested routes for Items in Todos
