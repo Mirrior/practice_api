@@ -1,24 +1,12 @@
-# README
+# Practive for creating APIs with RESTful calls
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+use of
+  * factory_bot_rails
+  * shoulda-matchers
+  * faker
+  * database_cleaner
+for database and rspec testing
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+nested routes for Items in Todos
+Pagination
